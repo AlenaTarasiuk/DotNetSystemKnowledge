@@ -1,0 +1,14 @@
+﻿@model IEnumerable<DotNetSystemKnowledge.Domain.Entities.Technology>
+
+@{
+    ViewBag.Title = "Technologys";
+}
+
+@foreach (var t in Model)
+{
+    <div class="item">
+        <h3>@t.Name</h3>
+        @t.Rating
+        <h3>@t.Rating.ToString()</h3>
+    </div>    
+}
