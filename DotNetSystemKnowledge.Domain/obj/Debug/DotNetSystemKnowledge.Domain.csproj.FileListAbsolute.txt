@@ -8,3 +8,12 @@ D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityF
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.dll
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.xml
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\DotNetSystemKnowledge.Domain.dll.config
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\DotNetSystemKnowledge.Domain.dll
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\DotNetSystemKnowledge.Domain.pdb
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.dll
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.xml
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\obj\Debug\DotNetSystemKnowledge.Domain.dll
+E:\MVCProject\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\obj\Debug\DotNetSystemKnowledge.Domain.pdb

@@ -1,10 +1,12 @@
-﻿@model IEnumerable<DotNetSystemKnowledge.Domain.Entities.Technology>
+﻿@model DotNetSystemKnowledge.WebUI.Models.TechnologyViewModel
 
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Technologys";
 }
 
-@foreach (var t in Model)
+<div class="row">
+@foreach (var t in Model.Technologys)
 {
     <div class="item">
         <h3>@t.Name</h3>
@@ -12,3 +14,8 @@
         <h3>@t.Rating.ToString()</h3>
     </div>    
 }
+</div>
+
+<div class="pager">   
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new {page = x}))
+</div>
