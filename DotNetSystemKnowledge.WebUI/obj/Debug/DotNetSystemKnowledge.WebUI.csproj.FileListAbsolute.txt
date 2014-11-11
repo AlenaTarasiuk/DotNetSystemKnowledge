@@ -119,3 +119,4 @@ D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.WebUI\bin\System.Web.Web
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.WebUI\bin\System.Web.WebPages.Razor.xml
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.WebUI\obj\Debug\DotNetSystemKnowledge.WebUI.dll
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.WebUI\obj\Debug\DotNetSystemKnowledge.WebUI.pdb
+D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.WebUI\obj\Debug\DotNetSystemKnowledge.WebUI.csprojResolveAssemblyReference.cache
