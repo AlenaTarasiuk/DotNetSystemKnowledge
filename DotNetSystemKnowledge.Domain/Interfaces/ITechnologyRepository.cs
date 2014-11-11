@@ -10,9 +10,5 @@ namespace DotNetSystemKnowledge.Domain.Interfaces
     public interface ITechnologyRepository
     {
         IQueryable<Technology> Technologys { get; }
-     //   void CreateOrSaveTechnology(Technology technology);
-     //   void DeleteTechnology(Technology technology);
     }
-
-
 }

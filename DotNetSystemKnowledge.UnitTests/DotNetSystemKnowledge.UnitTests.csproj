@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F47197F-CAC1-4570-862E-81079FD8B0D8}</ProjectGuid>
+    <ProjectGuid>{F4422F96-BAD3-4C6F-BD60-EDAB6AB3B8DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DotNetSystemKnowledge.UnitTests</RootNamespace>
@@ -62,22 +62,21 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DotNetSystemKnowledge.Domain\DotNetSystemKnowledge.Domain.csproj">
-      <Project>{1830646c-070d-4477-aa8c-35903b14c156}</Project>
-      <Name>DotNetSystemKnowledge.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotNetSystemKnowledge.WebUI\DotNetSystemKnowledge.WebUI.csproj">
-      <Project>{00bb61f8-3c07-409e-9719-bf6d5b311fb4}</Project>
-      <Name>DotNetSystemKnowledge.WebUI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetSystemKnowledge.Domain\DotNetSystemKnowledge.Domain.csproj">
+      <Project>{82bd4455-d8f1-4465-8e5a-b952e757dd3a}</Project>
+      <Name>DotNetSystemKnowledge.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetSystemKnowledge.WebUI\DotNetSystemKnowledge.WebUI.csproj">
+      <Project>{2fe1822e-4d88-4020-bf27-db5e7cb9322b}</Project>
+      <Name>DotNetSystemKnowledge.WebUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

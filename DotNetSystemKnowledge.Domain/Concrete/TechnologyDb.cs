@@ -8,7 +8,7 @@ using System.Data.Entity;
 
 namespace DotNetSystemKnowledge.Domain.Concrete
 {
-    class TechnologyDb : DbContext
+    public class TechnologyDb : DbContext
     {
         public DbSet<Technology> Technologys { get; set; }
     }
