@@ -12,7 +12,7 @@ namespace DotNetSystemKnowledge.WebUI.Controllers
     public class TechnologyController : Controller
     {
         private ITechnologyRepository repository;
-        public int PageSize = 5;
+        public int PageSize = 7;
         public TechnologyController(ITechnologyRepository technologyRepository)
         {
             this.repository = technologyRepository;

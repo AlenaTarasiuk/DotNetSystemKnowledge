@@ -31,18 +31,6 @@ namespace DotNetSystemKnowledge.WebUI.Infrastructure
         {
             ninjectKernel.Bind<ITechnologyRepository>().To<TechnologyDbRipository>();
         }
-        /*
-        private void AddBindings()
-        {
-            //ninjectKernel.Bind<ITechnologyRepository>().To<TechnologyDbRipository>();
-            Mock<ITechnologyRepository> mock = new Mock<ITechnologyRepository>();
-            mock.Setup(m => m.Technologys).Returns(new List<Technology> {
-            new Technology { Name = "OS", Rating = 2 },
-            new Technology { Name = "Data Base", Rating = 1 },
-            new Technology { Name = "Language", Rating = 3 }
-            }.AsQueryable());
-            ninjectKernel.Bind<ITechnologyRepository>().ToConstant(mock.Object);
-        }
-         */
+     
     }
 }

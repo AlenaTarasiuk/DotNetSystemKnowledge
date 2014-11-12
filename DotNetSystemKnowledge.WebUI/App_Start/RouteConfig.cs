@@ -20,6 +20,12 @@ namespace DotNetSystemKnowledge.WebUI
             );
 
             routes.MapRoute(
+                name: null,
+                url: "Page{page}",
+                defaults: new { controller = "User", action = "Register" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Technology", action = "List", id = UrlParameter.Optional }

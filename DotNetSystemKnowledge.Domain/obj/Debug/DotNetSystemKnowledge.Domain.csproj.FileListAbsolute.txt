@@ -25,6 +25,5 @@ D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityF
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.dll
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.xml
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\bin\Debug\EntityFramework.SqlServer.xml
-D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\obj\Debug\DotNetSystemKnowledge.Domain.csprojResolveAssemblyReference.cache
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\obj\Debug\DotNetSystemKnowledge.Domain.dll
 D:\Projects\DotNetSystemKnowledge\DotNetSystemKnowledge.Domain\obj\Debug\DotNetSystemKnowledge.Domain.pdb

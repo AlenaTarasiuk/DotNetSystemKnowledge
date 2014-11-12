@@ -135,12 +135,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Controllers\TechnologyController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
     <Compile Include="Infrastructure\NinjectControllerFactory.cs" />
+    <Compile Include="Models\UserRegisterViewModel.cs" />
     <Compile Include="Models\PagingInfo.cs" />
     <Compile Include="Models\TechnologysViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -233,6 +236,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Technology\List.cshtml" />
+    <Content Include="Views\Shared\TechnologySummary.cshtml" />
+    <Content Include="Views\Nav\Menu.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

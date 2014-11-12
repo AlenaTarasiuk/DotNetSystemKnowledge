@@ -7,9 +7,7 @@
 
 @foreach (var t in Model.Technologys)
 {
-    <div class="item">
-        <h3>@t.Name   @t.Rating.ToString()</h3>
-    </div>    
+    Html.RenderPartial("TechnologySummary", t);  
 }
 
 <div class="pager">

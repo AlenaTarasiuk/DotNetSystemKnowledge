@@ -10,5 +10,6 @@ namespace DotNetSystemKnowledge.WebUI.Models
     {
         public IEnumerable<Technology> Technologys { get; set; }
         public PagingInfo PagingInfo { get; set; }
+        public string CurrentItem { get; set; }
     }
 }
