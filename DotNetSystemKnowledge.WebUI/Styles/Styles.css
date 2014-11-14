@@ -64,11 +64,11 @@ DIV.pager {
         color: #666;
         text-decoration: none;
         padding: 0 .4em 0 .4em;
-        background-color: #9fd41b;
+        background-color: #ffffff;
     }
 
         DIV.pager A:hover {
-            background-color: Silver;
+            background-color: #9fd41b;
         }
 
         DIV.pager A.selected {
@@ -82,8 +82,10 @@ font: bold 1.0em  "Arial","Franklin Gothic Medium",Arial; display: block;
 text-decoration: none; padding: .6em; color: Black;
 
 
+
 }
 DIV#categories A.selected { background-color: #666; color: White; }
 DIV#categories A:hover { background-color: #9fd41b; }
+DIV#categories A:focus {background-color: #ff6a00;}
 DIV#categories A.selected:hover { background-color: #666; }
 

@@ -23,6 +23,10 @@ namespace DotNetSystemKnowledge.WebUI.Controllers
                 .OrderBy(x => x);
             return PartialView(categories);
         }
+        public ActionResult Index()
+        {
+            return View();
+        }
          
     }
 }

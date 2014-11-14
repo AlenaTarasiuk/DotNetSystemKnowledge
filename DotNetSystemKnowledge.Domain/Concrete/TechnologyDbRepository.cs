@@ -16,9 +16,5 @@ namespace DotNetSystemKnowledge.Domain.Concrete
             get { return context.Technologys; }
         }
 
-        public IQueryable<User> hnologys
-        {
-            get { return context.Technologys; }
-        }
     }
 }

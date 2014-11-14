@@ -30,7 +30,7 @@ namespace DotNetSystemKnowledge.WebUI.Infrastructure
         private void AddBindings()
         {
             ninjectKernel.Bind<ITechnologyRepository>().To<TechnologyDbRipository>();
-           ninjectKernel.Bind<IUserRepository>().To<UserDbRepository>();
+            ninjectKernel.Bind<IUserRepository>().To<UserDbRepository>();
 
         }
      
