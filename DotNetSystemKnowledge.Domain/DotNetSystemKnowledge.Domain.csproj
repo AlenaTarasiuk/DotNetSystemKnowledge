@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="Concrete\TechnologyDb.cs" />
     <Compile Include="Concrete\TechnologyDbRepository.cs" />
+    <Compile Include="Concrete\UserDb.cs" />
+    <Compile Include="Concrete\UserDbRepository.cs" />
     <Compile Include="Entities\Technology.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\ITechnologyRepository.cs" />

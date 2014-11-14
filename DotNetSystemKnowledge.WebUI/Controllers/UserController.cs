@@ -12,7 +12,7 @@ namespace DotNetSystemKnowledge.WebUI.Controllers
 {
     public class UserController : Controller
     {
-                IUserRepository repo;
+        IUserRepository repo;
 
         public UserController(IUserRepository reposit)
         {
@@ -26,27 +26,12 @@ namespace DotNetSystemKnowledge.WebUI.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Register(UserRegisterViewModel model, HttpPostedFileBase image)
+
+        [HttpGet]
+        public ViewResult Login()
         {
-            if (ModelState.IsValid && !repo.CheckExistenceOfUser(model.Name))
-            {
-                User user = new User()
-                {
-                    Name = model.Name,
-                    Password = model.Password.GetHashCode().ToString(),
-                    Email = model.Email
-                };
-            }
-            else
-            {
-                ModelState.AddModelError("", "User with " + model.Name + " name already exists");
-                return View(model);
-            }
-
-            return RedirectToAction("Login");
+            return View();
         }
-
 
     }
 }
