@@ -45,6 +45,7 @@ DIV.item {
     DIV.item H3 {
         font-size: 1.3em;
         margin: 0 0 .25em 0;
+        font: "Arial"
     }
 
     DIV.item H4 {
@@ -80,12 +81,7 @@ DIV.pager {
 {
 font: bold 1.0em  "Arial","Franklin Gothic Medium",Arial; display: block;
 text-decoration: none; padding: .6em; color: Black;
-
-
-
 }
-DIV#categories A.selected { background-color: #666; color: White; }
-DIV#categories A:hover { background-color: #9fd41b; }
-DIV#categories A:focus {background-color: #ff6a00;}
-DIV#categories A.selected:hover { background-color: #666; }
-
+DIV#categories A.selected { background-color: #c1bebe; color: White; }
+DIV#categories A:hover { background-color: #9fd41b; color: White;}
+DIV#categories A.selected:hover { background-color:#9fd41b; }

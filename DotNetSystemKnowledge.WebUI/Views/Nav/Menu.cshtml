@@ -1,13 +1,18 @@
 ﻿@model IEnumerable<string>
 
-@using (Html.BeginForm())
+    @Html.RouteLink("Profile", new { controller = "Technology", action = "List", category = "Profile" }, new
 {
-@Html.ActionLink("Profile", "List", "Technology")
-       
-@Html.ActionLink("Selection", "Select", "Select")
-
-@Html.ActionLink("login", "Login", "User")
-
-@Html.ActionLink("Register", "Register", "User")
-
-}
+    @class = "Profile" == ViewBag.SelectedCategory ? "selected" : null
+})
+    @Html.RouteLink("Selection", new { controller = "Select", action = "Select", category = "Selection" }, new
+{
+    @class = "Selection" == ViewBag.SelectedCategory ? "selected" : null
+})
+    @Html.RouteLink("login", new { controller = "User", action = "Login", category = "login" }, new
+{
+    @class = "login" == ViewBag.SelectedCategory ? "selected" : null
+})
+    @Html.RouteLink("Register", new { controller = "User", action = "Register", category = "Register" }, new
+{
+    @class = "Register" == ViewBag.SelectedCategory ? "selected" : null
+})
