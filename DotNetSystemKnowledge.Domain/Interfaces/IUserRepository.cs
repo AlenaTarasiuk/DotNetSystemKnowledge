@@ -10,6 +10,9 @@ namespace DotNetSystemKnowledge.Domain.Interfaces
     public interface IUserRepository
     {
         IQueryable<User> Users { get; }
-      //  bool CheckExistenceOfUser(string userName);
+
+        bool AuthenticationOfUser(string userName, string userPassword);
+        bool CheckExistenceOfUser(string userName);
+        bool CreateOfChangeUser(User user);
     }
 }
