@@ -8,7 +8,9 @@
 @foreach (var t in Model.Technologys)
 {
     Html.RenderPartial("TechnologySummary", t);  
+    
 }
+
 
 <div class="pager">
     @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))

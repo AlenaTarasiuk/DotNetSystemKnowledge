@@ -1,9 +1,4 @@
-﻿BODY {
-    font-family: Cambria, Georgia, "Times New Roman" ;
-    margin:0;
-}
-
-DIV#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A {
+﻿DIV#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A {
     font: bold 3em "Arial", "Franklin Gothic Medium", Arial;
 }
 
@@ -14,10 +9,14 @@ DIV#header {
 }
 
 DIV#header DIV.title {
-        font-size: 2em;
-        padding: .6em;
+        font-size: 1.5em;
+        padding: .5em;
 }
 
+BODY {
+    font-family: Cambria, Georgia, "Times New Roman" ;
+    margin:0;
+}
 DIV#content {
     
     margin-left: 9em;

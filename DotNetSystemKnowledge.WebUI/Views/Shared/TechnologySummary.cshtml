@@ -1,5 +1,21 @@
 ﻿@model DotNetSystemKnowledge.Domain.Entities.Technology
 
+<link href="@Url.Content("~/Styles/RatingStars2.css")" rel="stylesheet" />
+<script src="@Url.Content("~/Scripts/javaScriptRating.js")" type="text/javascript"></script>
+
+
 <div class="item">
-    <h4>@Model.Name @Model.Rating.ToString()</h4>
+       <dl class="star-rating">
+        <dd>
+            <h4>@Model.Name </h4>
+            <!--Model.Rating.ToString()-->
+            <ol>
+                <li><a href="#" class="star1">Ужасно</a></li>
+                <li><a href="#" class="star2">Плохо</a></li>
+                <li><a href="#" class="star3">Нормально</a></li>
+                <li ><a href="#" class="star4">Хорошо</a></li>
+                <li><a href="#" class="star5">Отлично</a></li>
+            </ol>
+        </dd>
+    </dl>
 </div>
